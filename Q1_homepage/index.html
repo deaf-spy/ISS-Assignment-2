@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./img/whitelogo.png" />
+
+    <!-- font -->
+    <link href='https://fonts.googleapis.com/css?family=Sora' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet'>
+
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/3b7d62d216.js" crossorigin="anonymous"></script>
+    <!-- index.css link -->
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <!-- internal styles -->
+    <style>
+        .title {
+            text-align: center; 
+            font-size: 4vmin; 
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="bg1" class="hidden" style="height: 100vh;"></div>
+    <div id="overlay1" class="hidden"></div>
+
+    <div class="navbar hidden">
+        
+        <a href="http://shreyupalley.rf.gd" target="_blank"><img src="img/blacklogo.png" class="logo"></img></a>
+        <div class="text1" style="flex-grow: 1; font-weight: 900; font-size: 1.5vw;"> <a href="http://shreyupalley.rf.gd" target="_blank" style="text-decoration: none; color: var(--background-color);">Shreyu Palley</a></div>
+        
+        <div class="buttonwrapper">
+            <button class="button button1" onclick="switcher(); colorer();">
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+        </div>
+    </div>
+
+    <div class="backgroundchangerwrapper">
+        <div class="backgroundchangerholder hidden">
+            <div class="stylisticquartercircle" style="border-top-left-radius:100%; box-shadow: 0 0 15px 0px #000;"></div>
+            <div class="backgroundchangerrectangle">
+                <div id="color1" class="changerbutton" style="background-color: #b58900;" onclick="backgroundChanger('#b58900');"></div>
+                <div id="color2" class="changerbutton" style="background-color: #cb4b16;" onclick="backgroundChanger('#cb4b16');"></div>
+                <div id="color3" class="changerbutton" style="background-color: #d33682;" onclick="backgroundChanger('#d33682');"></div>
+                <div id="color4" class="changerbutton" style="background-color: #268bd2;" onclick="backgroundChanger('#268bd2');"></div>
+                <div id="color5" class="changerbutton" style="background-color: #2aa198;" onclick="backgroundChanger('#2aa198');"></div>
+
+                <div id="size1" class="changerbutton" style="background-color: white;" onclick="textSizeChanger('0.7vw')"><p style="font-size: 6px;">Tt</p></div>
+                <div id="size2" class="changerbutton" style="background-color: white;" onclick="textSizeChanger('0.85vw')"><p style="font-size: 10px;">Tt</p></div>
+                <div id="size3" class="changerbutton" style="background-color: white;" onclick="textSizeChanger('1vw')"><p style="font-size: 13px;">Tt</p></div>
+            </div>
+            <div class="stylisticquartercircle" style="border-top-right-radius:100%;"></div>
+        </div>
+        
+     
+    </div>
+
+
+    <div class="namewrapper1">
+
+        <div class="myname hidden">
+            Shreyu Palley
+        </div>
+    </div>
+
+
+    <div id="outerwrapper">
+        <div id="innerwrapper">
+
+            <div id="section1">
+
+                <a href="img/pfpw.jpeg" target="_blank">
+                <div class="pfpwrapper">
+
+                    <!-- <div class="rb"></div> -->
+                    <div class="rb rotate"></div>
+                    <div class="rb2w rotate">
+                        <div class="rb2"></div>
+                    </div>
+                    <div class="pfp"></div>
+
+                </div>
+                </a>
+
+
+                <div class="codeboxwrapper">
+                    <div class="codebox">
+                        <div id="text2">
+                            Hi, I'm <p class = "nocolor" style="display: inline; color: #268bd2">Shreyu!</p> <br></br>
+I'm from <p class = "nocolor" style="display: inline; color: #2aa198">Hyderabad</p> and I'm currently a <p class = "nocolor" style="display: inline; color: #859900">1st year student</p> at <p class = "nocolor" style="display: inline; color: #d33682">IIIT Hyderabad</p> studying Computer Science. <br></br>
+I really enjoy my <p class = "nocolor" style="display: inline; color: #cb4b16">hobbies</p> - I've been completely addicted to <p class = "nocolor" style="display: inline; color: #cb4b16">Chess, Table tennis, Typing, Beatboxing, and Rubix cubing </p> <br></br>
+<p style="display: inline; color: #268bd2" class = "nocolor">Scroll along</p> and I'll tell you <p class = "nocolor" style="display: inline; color: #859900">some more.</p> <br> </br>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section" id="space"></div>
+
+            <div class="section" id="section2">
+
+                <div class="content reveal">
+                    <div class="contenttext">
+                        <div id="skilltext" class="text3 hidden">
+                            <p style="color: #d33682" class="title">Skills (Flex Time)</p>
+                            - I'm a complete fanatic of the game of <p style="display: inline; color: #859900">Chess</p>.
+                            If you're ever interested in playing me, just say the word, i'll be running. However, if I
+                            can't make it, then try playing with my Chess bot rated at my level on my 
+                            <a href="http://shreyupalley.rf.gd" target="_blank" style="color: 2aa198;">homepage here!</a>
+
+                            <br></br>
+                            - I'm passionate about producing <p style="display: inline; color: #268bd2">music</p>, creating <p style="display: inline; color: #268bd2">photoshops,</p> and now a little bit of <p style="display: inline; color: #268bd2">web development</p> and <p style="display: inline; color: #268bd2">design.</p> 
+                            
+                            <br></br>
+
+                            
+                            - I also really enjoy <p style="display: inline; color: #cb4b16">beatboxing</p> and performing music with friends. You probably might get to see me do some more in the future :))
+
+                            <br></br>
+
+                            - Hopefully you never have to come across me and my endless rants about typing, but im a
+                            huge advocate for <p style="display: inline; color: #b58900">touch typing</p>, especially as someone who recently went from typing with 2 fingers at <p style="display: inline; color: #d33682">20 wpm</p> to a solid <p style="display: inline; color: #859900">130 wpm</p>. If you ever need any advice, im your man.
+
+                            <br></br>
+
+                            <!-- - Okay thats enough ego for now, scroll along for more! -->
+                        </div>
+                        <div id="educationtext" class="text3 hidden">
+                            <p style="color: #b58900" class="title">My Educational Background</p>
+
+                            <table>
+                                <thead>
+                                    <th><p style="display: inline; color: #268bd2">Duration</p></th>
+                                    <th><p style="display: inline; color: #268bd2">School</p></th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>2 years</td>
+                                        <td>Creme de la creme</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3 years</td>
+                                        <td>Mason Elementary Childhood Center</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1 year</td>
+                                        <td>Mount Litera Zee School</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3 years</td>
+                                        <td>Riverwatch Middle School</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1 year</td>
+                                        <td>Lambert High School</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>3 years</td>
+                                        <td>Indus International School of Hyderabad</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div id="achievementtext" class="text3 hidden">
+                            <p style="color: #2aa198" class="title">My Achievements</p>
+
+
+                            <table>
+                                <thead>
+                                    <th><p style="display: inline; color: #268bd2">Date</p></th>
+                                    <th><p style="display: inline; color: #268bd2">Title</p></th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>June 19th 2019</td>
+                                        <td>2nd place in TTF table tennis tournament</td>
+                                    </tr>
+                                    <tr>
+                                        <td>July 6th, 2021</td>
+                                        <td>Got 96% in International Baccalaureate</td>
+                                    </tr>
+                                    <tr>
+                                        <td>April 19th, 2022</td>
+                                        <td>Won college freshers' talent show, "Flair", for beatboxing</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <div class="verticalline"></div>
+                    <div class="contentswitcher">
+                        <div class="horizontalline"></div>
+                        <div class="common" id="skills" onclick="infoPanel(0);">My Skills</div> <div class="horizontalline"></div>
+                        <div class="common" id="education" onclick="infoPanel(1);">My Education</div> <div class="horizontalline"></div>
+                        <div class="common" id="achievements" onclick="infoPanel(2);">My Achievements</div> <div class="horizontalline"></div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="section" id="space"></div>
+
+            <div class="section" id="section3">
+
+                <div class="newscontent reveal">
+                    <div class="newscontentholder">
+                        <div class="text4">
+                            News and Updates
+                        </div>
+                        <form>
+                            <!-- <label> New Update: </label> -->
+                            <input type="text" id="Update" placeholder="Enter Update Here">
+                            <button type='button' id="button3" onclick="addToList();">Enter</button>
+                            <button type='button' id="button4" onclick="resetList();">Reset</button>
+                        </form>
+                        <ul id="list">
+                            <!-- <li>hi </li> -->
+                        </ul>
+                    </div>
+
+                    
+                    
+                </div>
+                
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- javascript link -->
+    <script>
+        document.write('<script src="./index.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');
+    </script>
+</body>
+
+</html>
